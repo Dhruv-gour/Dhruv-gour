@@ -13,4 +13,6 @@
   
 </div>
 
-<a href="https://twitter.com/DhruvGo62039790"><img src="https://cdn-icons-png.flaticon.com/512/81/81609.png" width="35" height="35"></a>
+<a href="https://twitter.com/DhruvGo62039790">
+  <img align="right" src="https://cdn-icons-png.flaticon.com/512/81/81609.png" width="30" height="30">
+</a>
