@@ -6,5 +6,9 @@
 - 📫 I’m currently learning python.
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+<div>
+  
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv-gour">
 <img src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
+  
+</div>
