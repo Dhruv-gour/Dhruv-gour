@@ -36,13 +36,10 @@
 <!-- <p align="left"> 
 <img src="https://komarev.com/ghpvc/?username=abhishekchauhan15&label=Views&color=blue&style=plastic" alt="chait04" />
  </p> -->
-
-<p align="center">
   
   <img src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&langs_count=8"/>
 
-</p>
 
 
 [instagram]: https://www.instagram.com/fidjoke/
