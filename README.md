@@ -40,8 +40,8 @@
 <p align="center">
 <a href="https://github.com/Dhruv-gour">
   
-  <img height="180em" width="49%" src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
-  <img height="165em" width="40%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&langs_count=8"/>
+  <img height="190em" width="55%" src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
+  <img height="167em" width="42%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&langs_count=8"/>
 
 </a>
 </p>
