@@ -39,8 +39,3 @@
   
   <img src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&langs_count=8"/>
-
-
-
-[instagram]: https://www.instagram.com/fidjoke/
-[linkedin]: https://www.linkedin.com/in/fidal-mathew-82aba7200/
