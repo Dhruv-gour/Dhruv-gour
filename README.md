@@ -6,7 +6,7 @@
 - 👯 I have learned html, css, javascript, ai, machine learning.
 - 👨‍💻 I’m currently learning python.
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
-- 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ" target="_blank"> Check Here </a>
+- 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ"> Check Here </a>
 
 ## Languages and Tools 🛠 
 
