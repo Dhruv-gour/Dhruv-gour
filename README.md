@@ -3,7 +3,7 @@
 ## About me
 - 🔭 I am curently working on somthing cool!
 - 🎓 I’m student of whitehat jr.
-- 👯 I have learned html, css, javascript, ai, machine learning.
+- 👯 I have learned html, css, javascript, ai, machine learning, json.
 - 👨‍💻 I’m currently learning python.
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
 - 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ"> Check Here </a>
@@ -25,6 +25,7 @@
 <img src="https://img.icons8.com/fluency/48/000000/spyder-ide-5.png"/>
 <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/45/000000/external-project-jupyter-a-nonprofit-organization-created-to-open-source-software-logo-color-tal-revivo.png"/>
 <img src="https://img.icons8.com/fluency/48/000000/anaconda--v2.png"/>
+<img src="https://img.icons8.com/color/48/000000/firebase.png"/>
 
 </a>
 
