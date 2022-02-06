@@ -1,6 +1,6 @@
-## Hii I'm <a href="https://dhruv-gour.netlify.app/" target="_blank">Dhruv Gour!</a> 👋
+# Hii I'm <a href="https://dhruv-gour.netlify.app/" target="_blank">Dhruv Gour!</a> 👋
 
-### About me
+## About me
 - 🔭 I am curently working on somthing cool!
 - 🎓 I’m student of whitehat jr.
 - 👯 I have learned html, css, javascript, ai, machine learning.
@@ -8,7 +8,7 @@
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
 - 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ"> Check Here </a>
 
-### Languages and Tools 🛠 
+## Languages and Tools 🛠 
 
 <a href="https://github.com/Dhruv-gour">
 
