@@ -3,25 +3,29 @@
 ## About me
 - 🔭 I am curently working on somthing cool!
 - 🎓 I’m student of whitehat jr.
-- 👯 I have learned html, css, java, ai, machine learning.
-- 📫 I’m currently learning python.
+- 👯 I have learned html, css, javascript, ai, machine learning.
+- 👨‍💻 I’m currently learning python.
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
+- 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ" target="blank"> Check Here </a>
 
 ## Languages and Tools 🛠 
 
 <a href="https://github.com/Dhruv-gour">
- 
-<img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
-<img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
+
+ <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
 <img src="https://img.icons8.com/color/48/000000/css3.png"/>
- <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+<img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
+<img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
 <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+<img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
 
  <br/> 
  
-<img src="https://img.icons8.com/color/48/000000/git.png"/>
 <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
- <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
+<img src="https://img.icons8.com/fluency/48/000000/spyder-ide-5.png"/>
+<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/45/000000/external-project-jupyter-a-nonprofit-organization-created-to-open-source-software-logo-color-tal-revivo.png"/>
+<img src="https://img.icons8.com/fluency/48/000000/anaconda--v2.png"/>
+
 </a>
 
 <br/>
