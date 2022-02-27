@@ -1,4 +1,4 @@
-# Hii, I'm <a href="https://dhruv-gour.netlify.app/" target="_blank">Dhruv Gour!</a> 👋
+<h1 align="center"> Hii 👋 , I'm <a href="https://dhruv-gour.netlify.app/" target="_blank">Dhruv Gour!</a> </h1>
 
 ## About me
 - 🔭 I am curently working on somthing cool!
