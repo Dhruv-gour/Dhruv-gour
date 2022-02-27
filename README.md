@@ -42,5 +42,3 @@
   
   <img src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&langs_count=8"/>
-
-<img src="https://assets7.lottiefiles.com/packages/lf20_w51pcehl.json"  background="transparent"  speed="0.7"  style="width: 300px; height: 300px;"  loop controls autoplay></img>
