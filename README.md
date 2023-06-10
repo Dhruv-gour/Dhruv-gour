@@ -3,8 +3,8 @@
 ## About me
 - 🔭 I am curently working on somthing cool!
 - 🎓 I’m student of whitehat jr.
-- 👯 I have learned html, css, javascript, ai, machine learning, json.
-- 👨‍💻 I’m currently learning python.
+- 👯 I have learned Python, html, css, javascript, ai, machine learning, json.
+- 👨‍💻 I’m currently learning C.
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
 - 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ"> Check Here </a>
 
