@@ -1,12 +1,10 @@
 <h1 align="center"> Hii 👋 , I'm <a href="https://dhruv-gour.netlify.app/" target="_blank">Dhruv Gour!</a> </h1>
 
 ## About me
-- 🔭 I am curently working on somthing cool!
 - 🎓 I’m student of whitehat jr.
-- 👯 I have learned Python, html, css, javascript, ai, machine learning, json.
-- 👨‍💻 I’m currently learning C.
+- 👨‍💻 I have learned C, Python, html, css, javascript, AI machine learning, json.
 - 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
-- 📲 Check my youtube channel <a href="https://www.youtube.com/channel/UC889j9WpYX48uUn0E4gfLhQ"> Check Here </a>
+- 📫 How to reach me: dhruvgour97@gmail.com
 
 ## Languages and Tools 🛠 
 
@@ -37,7 +35,7 @@
 ### ⚙️ &nbsp;GitHub Analytics
 
 <!-- <p align="left"> 
-<img src="https://komarev.com/ghpvc/?username=abhishekchauhan15&label=Views&color=blue&style=plastic" alt="chait04" />
+<img src="https://komarev.com/ghpvc/?username=Dhruv-gour&label=Views&color=blue&style=plastic" alt="chait04" />
  </p> -->
   
   <img src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&&show_icons=true">
