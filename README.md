@@ -3,7 +3,7 @@
 ## About me
 - 🎓 I’m student of whitehat jr.
 - 👨‍💻 I have learned C, Python, html, css, javascript, AI machine learning, json.
-- 🌐 Visit my protfolio https://dhruv-gour.netlify.app/
+- 🌐 Visit my protfolio https://dhruvgour.netlify.app/
 - 📫 How to reach me: dhruvgour97@gmail.com
 
 ## Languages and Tools 🛠 
