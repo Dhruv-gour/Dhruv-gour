@@ -50,9 +50,6 @@
   <noscript>Allow Javascript</noscript>
 
   <header>
-    <div class="cursor-inner" id="cursor-inner"></div>
-    <div class="cursor-outer" id="cursor-outer"></div>
-
     <div class="navbar" id="navbar">
       <div class="hey">Hey!</div>
       <div class="logo" tabindex="0" aria-label="Dhruv gour logo">
@@ -811,6 +808,77 @@
       </div>
     </div>
   </div>
+  <script>
+  // Antigravity Particles - float upward, repel from cursor
+  var W = window.innerWidth, H = window.innerHeight;
+  var mouse = {x: -999, y: -999}, dots = [];
+  var canvas = document.createElement('canvas');
+  canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;z-index:9998;pointer-events:none';
+  document.body.insertBefore(canvas, document.body.firstChild);
+  var ctx = canvas.getContext('2d');
+  canvas.width = W; canvas.height = H;
+  window.onresize = function(){ canvas.width = window.innerWidth; canvas.height = window.innerHeight; W = canvas.width; H = canvas.height; };
+  var isMob = navigator.userAgent.indexOf('Mobi') > -1 || navigator.userAgent.indexOf('Android') > -1;
+  var count = isMob ? 30 : 65;
+  var colors = ['#4285F4','#EA4335','#FBBC05','#34A853','#FF6D01','#46BDC6','#7B1FA2'];
+  var shapes = ['circle','square','triangle'];
+  for (var i = 0; i < count; i++) {
+    dots.push({
+      x: Math.random() * W, y: Math.random() * H,
+      vx: (Math.random() - 0.5) * 1.5, vy: (Math.random() - 0.5) * 1.5,
+      size: Math.random() * 12 + 6,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      shape: shapes[Math.floor(Math.random() * 3)],
+      rot: Math.random() * 360, rotSpeed: (Math.random() - 0.5) * 0.03
+    });
+  }
+  document.onmousemove = function(e){ mouse.x = e.clientX; mouse.y = e.clientY; };
+  document.onmouseleave = function(){ mouse.x = -999; mouse.y = -999; };
+  document.ontouchmove = function(e){ mouse.x = e.touches[0].clientX; mouse.y = e.touches[0].clientY; };
+  document.ontouchend = function(){ mouse.x = -999; mouse.y = -999; };
+  function drawShape(p, s) {
+    ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot);
+    ctx.fillStyle = p.color; ctx.globalAlpha = 0.85;
+    if (s === 'circle') { ctx.beginPath(); ctx.arc(0, 0, p.size/2, 0, Math.PI*2); ctx.fill(); }
+    else if (s === 'square') { ctx.fillRect(-p.size/2, -p.size/2, p.size, p.size); }
+    else {
+      ctx.beginPath();
+      ctx.moveTo(0, -p.size/2); ctx.lineTo(p.size/2, p.size/2); ctx.lineTo(-p.size/2, p.size/2);
+      ctx.closePath(); ctx.fill();
+    }
+    ctx.restore();
+  }
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < dots.length; i++) {
+      var p = dots[i];
+      // Anti-gravity: float upward
+      p.vy -= 0.02;
+      // Repel from mouse
+      var dx = p.x - mouse.x, dy = p.y - mouse.y;
+      var dist = Math.sqrt(dx*dx + dy*dy);
+      if (dist < 150 && dist > 0) {
+        var force = (150 - dist) / 150 * 0.8;
+        p.vx += (dx / dist) * force;
+        p.vy += (dy / dist) * force;
+      }
+      // Apply velocity
+      p.x += p.vx; p.y += p.vy;
+      // Friction
+      p.vx *= 0.97; p.vy *= 0.97;
+      // Rotation
+      p.rot += p.rotSpeed;
+      // Wrap: reappear at bottom when reaching top
+      if (p.y < -50) { p.y = H + 50; p.x = Math.random() * W; }
+      if (p.y > H + 50) { p.y = -50; p.x = Math.random() * W; }
+      if (p.x < -50) p.x = W + 50;
+      if (p.x > W + 50) p.x = -50;
+      drawShape(p, p.shape);
+    }
+    requestAnimationFrame(draw);
+  }
+  draw();
+  </script>
 </body>
 
 </html>

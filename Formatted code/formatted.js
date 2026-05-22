@@ -40,51 +40,6 @@ function hidemenubyli() {
 
 // Scroll to Top and Back to Top functionality disabled and hidden as requested
 
-// Cursor Interaction
-const cursorInner = document.getElementById("cursor-inner");
-const cursorOuter = document.getElementById("cursor-outer");
-const links = document.querySelectorAll("a, label, button, .mobile-navbar-tabs-li, .navbar-tabs-li");
-
-let mouseX = 0;
-let mouseY = 0;
-let cursorOuterX = 0;
-let cursorOuterY = 0;
-
-document.addEventListener("mousemove", (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
-});
-
-function animateCursor() {
-  // Move inner cursor in animation frame to avoid layout thrashing
-  if (cursorInner) {
-    cursorInner.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`;
-  }
-
-  // Smoothly interpolate outer cursor position
-  const speed = 0.15; // Adjustment for lag feel
-  cursorOuterX += (mouseX - cursorOuterX) * speed;
-  cursorOuterY += (mouseY - cursorOuterY) * speed;
-  
-  if (cursorOuter) {
-    cursorOuter.style.transform = `translate3d(${cursorOuterX}px, ${cursorOuterY}px, 0) translate(-50%, -50%)`;
-  }
-  
-  requestAnimationFrame(animateCursor);
-}
-animateCursor();
-
-links.forEach((link) => {
-  link.addEventListener("mouseenter", () => {
-    if (cursorInner) cursorInner.classList.add("hover");
-    if (cursorOuter) cursorOuter.classList.add("hover");
-  });
-  link.addEventListener("mouseleave", () => {
-    if (cursorInner) cursorInner.classList.remove("hover");
-    if (cursorOuter) cursorOuter.classList.remove("hover");
-  });
-});
-
 // Navbar Tab Switching Logic
 const navTabs = document.querySelectorAll(".navbar-tabs-li");
 const sections = document.querySelectorAll("section");

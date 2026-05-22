@@ -125,43 +125,6 @@ html {
     background-color: #5F1E16
 }
 
-.cursor-inner {
-    width: 8px;
-    height: 8px;
-    background-color: var(--color-light-blue)
-}
-
-.cursor-outer {
-    width: 35px;
-    height: 35px;
-    border: 2px solid #fff
-}
-
-.cursor-inner,
-.cursor-outer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: 9999;
-    pointer-events: none;
-    will-change: transform
-}
-
-.cursor-inner.hover {
-    width: 25px;
-    height: 25px;
-    transition: .2s;
-    mix-blend-mode: difference
-}
-
-.cursor-outer.hover {
-    width: 50px;
-    height: 50px;
-    transition: .2s
-}
-
 .nav-active-dot {
     position: absolute;
     height: 8px;
@@ -284,7 +247,12 @@ header {
     height: 115px;
     display: flex;
     align-items: flex-end;
-    justify-content: center
+    justify-content: center;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: center center
 }
 
 /* Removed old preloader */
@@ -1860,8 +1828,6 @@ footer {
     }
 
     .blob,
-    .cursor-inner,
-    .cursor-outer,
     .navbar-tabs-ul {
         display: none
     }
@@ -2131,7 +2097,9 @@ footer {
     }
 
     .landing-page-container {
-        height: 85vh
+        min-height: 100vh;
+        height: fit-content;
+        padding: 30px 0 60px
     }
 
     .text-content {
@@ -2548,8 +2516,12 @@ footer {
 
 @media screen and (max-width: 600px) {
     #ascii {
-        transform: scale(0.8);
+        transform: translate(-50%, -50%) scale(0.8);
         transform-origin: center;
+    }
+
+    .dp-wrapper {
+        width: 100%
     }
 }
 
