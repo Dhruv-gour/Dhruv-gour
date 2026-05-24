@@ -605,7 +605,7 @@ noscript {
 #name {
     font-size: clamp(4rem, 8.5vw, 8.5rem);
     font-weight: 800;
-    letter-spacing: -3px;
+    letter-spacing: clamp(-1px, -0.3vw, -3px);
     line-height: 1.05;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
@@ -631,7 +631,7 @@ noscript {
     font-size: clamp(2.4rem, 4.8vw, 4.4rem) !important;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.6) !important;
-    letter-spacing: -1.5px;
+    letter-spacing: clamp(0px, -0.1vw, -1.5px);
     line-height: 1.2;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
@@ -2870,4 +2870,612 @@ footer {
 .ascii-src-btn:hover .src-icon {
     opacity: 1;
     transform: rotate(360deg);
+}
+
+/* ============================================
+   MOBILE RESPONSIVE OVERRIDES
+   ============================================ */
+
+/* --- Tablet (≤ 998px) fixes --- */
+@media screen and (max-width: 998px) {
+
+    /* Reduce giant section top paddings */
+    .about-section-container {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .skills-section-container {
+        padding-top: 80px;
+    }
+
+    .projects-section-container {
+        padding: 80px 0;
+    }
+
+    /* Word scroll section — trim huge margins */
+    .word-scroll {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .scroll-spacer {
+        height: 60px;
+    }
+
+    /* About section width */
+    .about-section,
+    .skills-section,
+    .projects-section-div {
+        width: 88%;
+    }
+
+    /* dp-wrapper full width */
+    .dp-wrapper {
+        width: 100%;
+    }
+
+    /* Certifications */
+    .certifications-section {
+        margin-top: 60px;
+    }
+
+    /* Project boxes — no fixed height, stack naturally */
+    .project-box {
+        height: auto !important;
+        min-height: unset;
+        flex-direction: column;
+    }
+
+    .info-div {
+        width: 100%;
+        height: auto;
+        padding: 30px 30px 20px;
+    }
+
+    .image-div {
+        width: 100%;
+        height: 220px;
+        padding: 0 0 0 30px;
+        overflow: hidden;
+    }
+
+    .image-div img {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .project-boxes-div {
+        padding: 30px 0;
+        gap: 30px;
+    }
+}
+
+/* --- Mobile (≤ 768px) fixes --- */
+@media screen and (max-width: 768px) {
+
+    /* Landing page — ensure full-height, no overflow */
+    .landing-page-container {
+        height: auto;
+        min-height: calc(100vh - 115px);
+        padding: 60px 0 60px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-content {
+        width: 100% !important;
+        padding: 0 24px !important;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    /* Reduce about-section padding further */
+    .about-section-container {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+    .about-section,
+    .skills-section,
+    .projects-section-div {
+        width: 90%;
+    }
+
+    .about-info {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    /* Tech stack grid on mobile */
+    .tech-stack-wrapper {
+        gap: 16px;
+    }
+
+    /* Navbar logo always visible */
+    .logo {
+        display: flex !important;
+    }
+
+    /* Certifications adjustments */
+    .cert-row {
+        padding: 16px 18px;
+    }
+
+    .cert-row-left {
+        gap: 12px;
+    }
+
+    .cert-row-date {
+        font-size: 1.1rem;
+    }
+
+    .cert-row-title-wrap h4 {
+        font-size: 1.4rem;
+    }
+
+    .cert-row-desc {
+        font-size: 1.1rem;
+    }
+
+    /* Modal responsive */
+    .cert-modal-content {
+        padding: 28px 20px;
+        width: 95%;
+        border-radius: 20px;
+    }
+
+    /* Word scroll inner padding */
+    .word-scroll-inner {
+        padding: 0 20px;
+        gap: 12px;
+    }
+
+    .word-scroll {
+        font-size: clamp(2.4rem, 7vw, 4rem);
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .scroll-spacer {
+        height: 40px;
+    }
+
+    /* Skills section */
+    .skills-section-container {
+        padding-top: 60px;
+    }
+
+    .frontend-dev-heading {
+        font-size: 2.2rem;
+        height: 70px;
+        letter-spacing: 2px;
+    }
+
+    /* Projects */
+    .projects-section-container {
+        padding: 60px 0;
+    }
+
+    .project-boxes-div {
+        padding: 20px 0;
+        gap: 24px;
+    }
+
+    .image-div {
+        height: 180px;
+        padding: 0;
+    }
+
+    .image-div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    /* Section headings smaller */
+    .projects-heading-article,
+    .section-heading-article,
+    .skills-heading-article {
+        font-size: 2.2rem;
+    }
+
+    .projectsHeadingP,
+    .sectionHeadingP,
+    .skillsHeadingP {
+        width: 120px;
+    }
+
+    /* Footer */
+    .two-words article {
+        font-size: 1.6rem;
+        max-width: 95vw;
+    }
+}
+
+/* --- Small mobile (≤ 500px) fixes --- */
+@media screen and (max-width: 500px) {
+
+    .landing-page-container {
+        padding: 40px 0 50px;
+    }
+
+    .text-content {
+        padding: 0 18px !important;
+    }
+
+    .hello-badge {
+        margin-bottom: 18px;
+    }
+
+    #info-para {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .contact-btn-div {
+        padding-top: 24px !important;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    /* About */
+    .about-section-container {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    .about-text {
+        font-size: 1.1rem;
+    }
+
+    .certifications-section {
+        margin-top: 40px;
+    }
+
+    .cert-title {
+        font-size: 2.2rem;
+    }
+
+    /* Tech stack — 2-col grid, proper sizing */
+    .tech-stack-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        margin-top: 30px;
+    }
+
+    .tech-stack-box {
+        width: 100%;
+        height: 110px;
+        padding: 14px;
+        border-radius: 18px;
+    }
+
+    /* Project box */
+    .project-box {
+        border-radius: 18px;
+    }
+
+    .info-div {
+        padding: 24px 20px 16px;
+        gap: 12px;
+    }
+
+    .ProjectHeading {
+        font-size: 2.4rem;
+    }
+
+    .ProjectDescription {
+        font-size: 1.4rem;
+    }
+
+    .image-div {
+        height: 160px;
+        padding: 0;
+    }
+
+    /* Skills heading */
+    .frontend-dev-heading {
+        font-size: 2rem;
+        letter-spacing: 1px;
+        height: 60px;
+    }
+
+    /* Word scroll */
+    .word-scroll {
+        font-size: clamp(2rem, 6.5vw, 3.5rem);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        letter-spacing: -1px;
+    }
+
+    .scroll-spacer {
+        height: 20px;
+    }
+
+    .word-scroll-inner ul {
+        gap: 8px;
+    }
+
+    /* Footer */
+    .footercontainer {
+        gap: 20px;
+    }
+
+    .footer-avatar-container {
+        width: 160px;
+    }
+}
+
+/* --- Very small (≤ 380px) fixes --- */
+@media screen and (max-width: 380px) {
+
+    .text-content {
+        padding: 0 14px !important;
+    }
+
+    #name {
+        font-size: 3.6rem !important;
+        letter-spacing: -2px;
+    }
+
+    #work {
+        font-size: 1.9rem !important;
+    }
+
+    .tech-stack-box {
+        height: 95px;
+    }
+
+    .about-section,
+    .skills-section,
+    .projects-section-div {
+        width: 92%;
+    }
+
+    .cert-row {
+        padding: 14px 14px;
+    }
+
+    .ProjectHeading {
+        font-size: 2rem;
+    }
+}
+
+
+/* ============================================
+   MOBILE CRITICAL FIXES v2
+   ============================================ */
+
+@media screen and (max-width: 998px) {
+
+    /* ── Landing page: stop vertically centering in a min-height
+          container which creates the giant gap above content ── */
+    .landing-page-container {
+        height: auto !important;
+        min-height: unset !important;
+        align-items: flex-start;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .text-content {
+        justify-content: flex-start;
+    }
+
+    /* ── Fix letter-spacing on name/work — negative values
+          crush characters together on narrow screens ── */
+    #name {
+        letter-spacing: -1px !important;
+    }
+
+    #work {
+        letter-spacing: -0.5px !important;
+    }
+
+    /* ── Fix #work .highlight box overflow on narrow screens ── */
+    #work .highlight {
+        display: inline;
+        padding: 2px 4px;
+        word-break: break-word;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Landing: ensure no extra top gap from padding */
+    .landing-page-container {
+        padding-top: 60px !important;
+        padding-bottom: 50px !important;
+    }
+
+    /* Name & work letter-spacing */
+    #name {
+        letter-spacing: 0px !important;
+    }
+
+    #work {
+        letter-spacing: 0px !important;
+        word-break: break-word;
+    }
+
+    #work .highlight {
+        display: inline;
+        padding: 1px 4px;
+    }
+
+    /* Section containers */
+    .about-section-container {
+        padding-top: 60px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .skills-section-container {
+        padding-top: 60px !important;
+    }
+
+    .projects-section-container {
+        padding: 60px 0 !important;
+    }
+
+    /* Word scroll tight */
+    .word-scroll {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .scroll-spacer {
+        height: 15px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Landing page very tight on small phone */
+    .landing-page-container {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    /* Stronger letter-spacing fix */
+    #name {
+        letter-spacing: 0px !important;
+        word-break: break-word;
+    }
+
+    #work {
+        letter-spacing: 0px !important;
+        word-break: break-word;
+        width: 100% !important;
+    }
+
+    #work .highlight {
+        display: inline;
+        border: none;
+        background: none;
+        padding: 0;
+        color: var(--color-light-blue) !important;
+        -webkit-text-fill-color: unset !important;
+    }
+
+    /* Word scroll section */
+    .word-scroll {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .scroll-spacer {
+        height: 10px !important;
+    }
+
+    /* Section paddings */
+    .about-section-container {
+        padding-top: 50px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .skills-section-container {
+        padding-top: 50px !important;
+    }
+
+    .projects-section-container {
+        padding: 50px 0 !important;
+    }
+
+    /* Certifications */
+    .certifications-section {
+        margin-top: 30px !important;
+    }
+}
+
+
+/* ============================================
+   MOBILE CRITICAL FIXES v3 — ROOT CAUSE FIXES
+   ============================================ */
+
+@media screen and (max-width: 998px) {
+
+    /* ROOT CAUSE of hero gap:
+       .text-content has height:100% + justify-content:center
+       → stretches tall and vertically centers children
+       → creates huge blank space above content on mobile */
+    .text-content {
+        height: auto !important;
+        justify-content: flex-start !important;
+    }
+
+    /* Tighten word-scroll section margins */
+    .word-scroll {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+
+    /* Landing: make container shrink to content */
+    .landing-page-container {
+        height: auto !important;
+        min-height: unset !important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    /* Fix #work highlight box overflow on narrow screens */
+    #work {
+        width: 100% !important;
+    }
+
+    #work .highlight {
+        display: inline;
+        border: none;
+        background: rgba(248, 196, 107, 0.1);
+        padding: 1px 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .landing-page-container {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .word-scroll {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .landing-page-container {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .word-scroll {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* Prevent the highlighted span from overflowing */
+    #work .highlight {
+        display: inline;
+        border: none;
+        background: none;
+        padding: 0;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.8) !important;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0.8) !important;
+    }
 }
