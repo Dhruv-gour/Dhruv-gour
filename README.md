@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&height=80&lines=Hi+👋+I'm+Dhruv+Gour;Full+Stack+Developer;AI+%26+ML+Enthusiast;Building+Tomorrow's+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&height=80&lines=Hi+👋+I'm+Dhruv+Gour;Full+Stack+Developer;AI+%26+ML+Enthusiast" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -21,7 +21,7 @@
 
 ## 👨‍💻 About Me
 
-I'm a passionate **Full Stack Developer** and **AI/ML Enthusiast** dedicated to creating scalable, efficient, and user-centric solutions. With expertise across the modern development stack, I combine creative problem-solving with technical excellence to build applications that matter.
+I'm a passionate **Full Stack Developer** and **AI/ML Enthusiast** dedicated to creating scalable, efficient, and user-centric solutions. With expertise across the modern development stack, I combine technical knowledge with creative problem-solving.
 
 - 🎓 Currently learning at **WhiteHat Jr**
 - 💡 Specialized in **Full Stack Development** | **Machine Learning** | **Cloud Architecture**
@@ -74,8 +74,8 @@ I'm a passionate **Full Stack Developer** and **AI/ML Enthusiast** dedicated to 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&theme=tokyonight&langs_count=10" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&disable_animations=false" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&theme=tokyonight&langs_count=10&hide=jupyter%20notebook" alt="Top Languages" />
 </div>
 
 <div align="center">
