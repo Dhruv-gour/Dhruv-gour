@@ -74,12 +74,18 @@ I'm a passionate **Full Stack Developer** and **AI/ML Enthusiast** dedicated to 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&disable_animations=false" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&theme=tokyonight&langs_count=10&hide=jupyter%20notebook" alt="Top Languages" />
+  <a href="https://github.com/Dhruv-gour">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dhruv-gour&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/Dhruv-gour">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dhruv-gour&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" />
+  </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dhruv-gour&theme=tokyonight" alt="GitHub Streak" />
+  <a href="https://github.com/Dhruv-gour">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Dhruv-gour&theme=tokyonight" alt="GitHub Streak" />
+  </a>
 </div>
 
 ---
